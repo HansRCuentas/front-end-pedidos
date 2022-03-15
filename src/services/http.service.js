@@ -6,7 +6,7 @@ export function http(){
         headers:{
             'Content-Type':'application/json',
             'Accept': 'application/json',
-            'Authorization': 'Bearer 15|yq7P8cyLf1kA037KhOVPXlI4yk2apT6kBnrDwiRH'
+            'Authorization': 'Bearer 26|8vzNdJtnvsCj2Pgg3EDzV6CWenyuyG7tPVo1HOci'
         }
     });
     

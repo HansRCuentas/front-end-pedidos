@@ -7,10 +7,10 @@ export async function getCategorias(datos){
 */
 
 export const indexProductos= function(){
-    return http().get('/producto');
+    return http().get(`/producto`);
 }
 export const storeProducto = function(producto){
-    return http().post('/producto',producto);
+    return http().post(`/producto`,producto);
 }
 export const showProducto = function(id){
     return http().get(`/producto/${id}`);
